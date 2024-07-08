@@ -70,7 +70,7 @@ const n = 20;
             do {
                 swapped = false;
                 for (let i = 1; i < length; i++) {
-                   // moves.push({ indices: [i - 1, i], type: "comp" });
+                    moves.push({ indices: [i - 1, i], type: "comp" });
                     if (array[i - 1] > array[i]) {
                         swapped = true;
                         moves.push({ indices: [i - 1, i], type: "swap" });
